@@ -5,13 +5,17 @@ Pré-requisitos:
 • Ter o PostgreSQL instalado (ou pgAdmin).
 • Ter o arquivo do script salvo, por exemplo:
 
-" cafeteria_bomgosto.sql "
+```sql
+cafeteria_bomgosto.sql
+```
 
 Criar o banco de dados:
 
 • No terminal psql ou pgAdmin, crie um banco de dados (exemplo: bomgosto):
 
-" CREATE DATABASE bomgosto; "
+```sql
+CREATE DATABASE bomgosto;
+```
 
 Executar o script
 Usando o pgAdmin:
@@ -25,7 +29,9 @@ Verificar os dados
 • Após executar o script, você pode testar as consultas usando:
 
 -- Listar todo o cardápio
+```sql
 SELECT * FROM cardapio;
+```
 (exemplo exec 01)
 
 • Repita para as consultas das demais questões (2 a 5) para conferir os resultados.
